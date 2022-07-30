@@ -1,0 +1,41 @@
+.question {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.question:nth-child(2n) {
+    background-color: rgb(227, 226, 226);
+}
+.question:nth-child(2n+1) {
+    background-color: rgb(249, 248, 248);
+}
+
+/* .question:hover {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+} */
+
+.question .options .option input,label {
+    cursor: pointer;
+}
+
+.question .options .option input,label:hover {
+    font-weight: 600;
+}
+
+h2 {
+    margin-bottom: 0rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+.green {
+    background-color: rgb(8, 236, 8);
+}
+
+.red {
+    background-color: rgb(244, 69, 69);
+}

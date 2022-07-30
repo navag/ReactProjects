@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-header, footer {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 1rem;
+}
+
+main {
+  background-color: rgb(211, 211, 211);
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+  max-height: 46rem;
+  overflow-y: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75vh;
+  width: 80%;
+}
+
+.container .content {
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+button {
+  background-color: rgb(80, 7, 237);
+  border: 2px solid #282c34;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: rgb(248, 244, 244);
+  color: rgb(160, 158, 158);
+}
+
+button:hover:enabled {
+  background-color: rgb(192, 43, 226);
+}
+
+button:active:enabled {
+  transform: scale(1.2);
+}

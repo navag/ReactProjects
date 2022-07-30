@@ -1,0 +1,11 @@
+.result {
+    text-align: center;
+    border: 1px solid grey;
+    width: 300px;
+    height: 120px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    box-shadow: 2px 1px 14px 1px;
+}
