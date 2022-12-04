@@ -1,0 +1,9 @@
+.SearchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.SearchBox input {
+  height: 1.5rem;
+}

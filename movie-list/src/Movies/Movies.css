@@ -1,0 +1,38 @@
+.inputContainer {
+  width: 20rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  /* height: 2rem; */
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+button :hover {
+  background-color: #282c34;
+  transform: scale(1.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+.errorRes {
+  display: flex;
+  justify-content: center;
+  background-color: #e67474;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: auto;
+}

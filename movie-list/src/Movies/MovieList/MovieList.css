@@ -1,0 +1,45 @@
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movieList .movieImg {
+  width: 300px;
+  height: 500px;
+  margin: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movieImg img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+.movieImg :hover {
+  transform: scale(1.01);
+}
+
+.movie .title {
+  font-size: x-large;
+  font-weight: 800;
+  font-family: sans-serif;
+  inline-size: 300px;
+  overflow-wrap: break-word;
+}
+
+.movie .year {
+  font-weight: 800;
+  font-family: sans-serif;
+}

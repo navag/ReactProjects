@@ -1,0 +1,28 @@
+ .pagination {
+   margin: 1rem;
+   display: flex;
+ }
+
+ .pagination ul {
+   background-color: white;
+   width: auto;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+ }
+
+ .pagination ul li {
+   padding: 1rem;
+   font-weight: bold;
+   border: 1px solid darkgray;
+ }
+
+ .cursor {
+   cursor: pointer;
+ }
+
+ .pagination ul li:hover,
+ .active {
+   background-color: lightgray;
+ }
